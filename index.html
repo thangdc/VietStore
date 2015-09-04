@@ -20,9 +20,8 @@
 
   <script type="text/javascript">
     if(typeof vietsoft != "undefined"){
-      vietsoft.showMessage('hello, how are you?');
-      document.getElementById('btnClose').click = function(){
-        alert('test');
+      document.getElementById('btnClose').onclick = function(){
+        vietsoft.closeWindow();
       }
     }
   </script>
